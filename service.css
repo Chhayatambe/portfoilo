@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(images/service-bg.png);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #000000;
+    
+}
+
+nav ul{
+    display: flex;
+   justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-family:"Montserrat", sans-serif ;
+    color: white;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    transition: all 0.1s linear;
+
+}
+nav ul li a:hover{
+    color:#ffdc60;
+    font-size: 1.5rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin: 20px;
+    font-weight: 600;
+    font-family:  monospace;
+    color: black;
+}
+
+.crd1{
+    height: 200px;
+    width: 600px;
+    border:2px solid black;
+    margin: 15px;
+    background-color:  hsl(177, 39%, 72%);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.crd2{
+    height: 200px;
+    width: 600px;
+    border:2px solid black;
+    margin: 15px;
+    background-color: hsl(41, 99%, 64%);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.crd3{
+    height: 200px;
+    width: 600px;
+    border:2px solid black;
+    margin: 15px;
+    background-color: hsl(19, 97%, 85%);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.crd4{
+    height: 200px;
+    width: 600px;
+    border:2px solid black;
+    margin: 15px;
+    background-color:  hsl(221, 100%, 79%);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.crd1 .skills{
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.crd2 .skills{
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.crd3 .skills{
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.crd4 .skills{
+    margin-left: 40px;
+    margin-top: 35px;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+  
+.card-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px;
+    padding: 20px;
+}
+
+.crd1 .logo i{
+    margin-left: 55px;
+    margin-top: 35px;
+    font-size: 2.1rem;
+    color: black;
+    
+  
+}
+
+.crd2 .logo i{
+    margin-left: 55px;
+    margin-top: 35px;
+    font-size: 2.1rem;
+    color: black;
+    
+  
+
+}
+.crd3 .logo i{
+    margin-left: 55px;
+    margin-top: 35px;
+    font-size: 2.1rem;
+    color: black;
+    
+  
+}
+
+
+.crd4 .logo i{
+    margin-left: 55px;
+    margin-top: 35px;
+    font-size: 2.1rem;
+    color: black;
+    
+  
+}
+
+
+.crd5 .logo i{
+    margin-left: 55px;
+    margin-top: 35px;
+    font-size: 2.1rem;
+    color: black;
+    
+  
+}
+
+.crd6 .logo i{
+    margin-left: 55px;
+    margin-top: 35px;
+    font-size: 2.1rem;
+    color: black;
+    
+  
+}
+
+.text{
+    padding: 35px;
+    text-align: justify;
+    font-family:'times new roman';
+    color: white;
+    
+}
+
